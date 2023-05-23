@@ -43,6 +43,7 @@ main {
     margin-right: 20px;
     align-items: center;
     margin-top: 10px;
+    margin-left: 20px;
 }
 
 .city {
@@ -118,15 +119,22 @@ main {
 }
 
 
-.searchSection div:nth-child(2) {
+.searchSection button {
     background-color: var(--border);
-    width: 35px;
-    height: 35px;
+    width: 50px;
+    height: 45px;
+    border: none;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 4px;
     cursor: pointer;
+    transition: transform 0.3s ease-in-out
+}
+
+.searchSection button:focus {
+    transform: translateY(0.5px);
+    background-color: #7c858b;
 }
 
 .defaultWeatherlist {
