@@ -57,11 +57,11 @@ function showDefaultCity(firstCity, secondCity, threeCity, ) {
             </div>
             <div class=defaultWeatherlist>
             <p>${secondCity.name}</p>
-                <span>${Math.round(secondCity.main.temp)}</span>
+                <span>${Math.round(secondCity.main.temp)}°</span>
             </div>
             <div class=defaultWeatherlist>
             <p>${threeCity.name}</p>
-                <span>${Math.round(threeCity.main.temp)}</span>
+                <span>${Math.round(threeCity.main.temp)}°</span>
             </div>`;
           }
 
@@ -86,7 +86,7 @@ function showMainTemp(data_main) {
   //   iconClass = "fa-solid fa-cloud";
   // } else if (iconWeather = "clear" || "sunny") {
   //   iconClass = "fa-sharp fa-regular fa-sun"; 
-  // } else if (iconWeather = "rainy") {
+  // } else if (iconWeather = "rain") {
   //   iconClass = "fa-solid fa-cloud-rain"; 
   // } else if (iconWeather = "snow") {
   //   iconClass = "fa-solid fa-snowflake";
@@ -95,7 +95,7 @@ function showMainTemp(data_main) {
   // } else {
   //   iconClass = "fa-sharp fa-regular fa-sun";
   // }
-
+// thunderstorm
   // icon.className = iconClass
   
   // change UNIX time to normal hours
