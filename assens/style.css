@@ -27,6 +27,11 @@ main {
     font-weight: bold;
 }
 
+.mainTop i {
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 5px;
+}
 .mainBootom {
     display: flex;
     color: #fff;
